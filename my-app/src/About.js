@@ -42,15 +42,7 @@ const About = ({ about }) => {
 
 
 
-                    {/* <p>
-                        Hi, I'm Michael. <br></br>
-                        <br></br>
-                        I'm a aspiring software engineer with a love for
-                        full stack development. <br></br>
-                        <br></br>
-                        In my free time, I enjoy playing the guitar,
-                        playing tennis, and traveling!
-                    </p> */}
+                  
                 </div>
             </div>
         </div>

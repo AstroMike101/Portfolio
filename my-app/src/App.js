@@ -3,9 +3,12 @@ import Navbar from './Navbar.js'
 import About from './About.js'
 import Experience from './Experience.js'
 import Projects from './Projects.js'
+import Footer from './Footer.js';
 import Particles from "react-particles";
+
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
+
 
 
 
@@ -89,6 +92,8 @@ function App() {
       <About id='about'/>
       <Experience id="experience" />
       <Projects id="projects" />
+      <Footer id= "footer"/>
+
       {/* <Contact id="contact" /> */}
       
     </div>

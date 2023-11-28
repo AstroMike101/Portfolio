@@ -1,0 +1,25 @@
+footer {
+    background-color: #CAD2C5;
+    
+    color: #2f3e46;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.social-links a {
+    color: #2f3e46;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
