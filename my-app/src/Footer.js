@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <footer>
-            <div className="footer-content">
+            <div id="contact" className="footer-content">
                 <div className="copyright">
                     &copy; Michael Chen
                 </div>

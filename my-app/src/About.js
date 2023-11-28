@@ -6,9 +6,9 @@ import profilePic2 from './imgs/img2.png'
 
 
 
-const About = ({ about }) => {
+const About = ({ home }) => {
     return (
-        <div id= {about} className="about-me">
+        <div id= "home" className="about-me">
             <div className="header">
                 <h2>
                     <TypeAnimation

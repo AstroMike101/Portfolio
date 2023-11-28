@@ -6,6 +6,10 @@ import Projects from './Projects.js'
 import Footer from './Footer.js';
 import Particles from "react-particles";
 
+
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
+
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
 
@@ -17,7 +21,7 @@ function App() {
   const options = {
     particles: {
       number: {
-        value: 25,
+        value: 20,
         density: {
           enable: true,
           area: 1500
@@ -88,16 +92,20 @@ function App() {
       <Experience />
       <Projects /> */}
 
+
+     
+
+
       <Navbar />
-      <About id='about'/>
+      <About id='about' />
       <Experience id="experience" />
       <Projects id="projects" />
-      <Footer id= "footer"/>
+      <Footer id="footer" />
 
       {/* <Contact id="contact" /> */}
-      
+
     </div>
   );
-} 
+}
 
 export default App;

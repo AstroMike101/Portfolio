@@ -3,12 +3,14 @@ import './Projects.css';
 import proj1 from './imgs/proj1.png'
 import proj2 from './imgs/proj2.png'
 import proj3 from './imgs/proj3.png'
+import proj4 from './imgs/proj4.png'
 
 
 
-const Projects = () => {
+
+const Projects = (projects) => {
     return (
-        <section className="projects-section">
+        <section id= "projects" className="projects-section ">
             <h2 class="underLine">Projects</h2>
             <div className="project-item">
                 <img
@@ -78,6 +80,33 @@ const Projects = () => {
                     </p>
                 </div>
             </div>
+
+
+            <div className="project-item">
+                <img
+                    src={proj4}
+                    alt="Project 4"
+                    className="project-image"
+                />
+                <div className="project-details">
+                    <h3>MacroBuddy</h3>
+                    <p className="project-description">
+                        •A website enabling users to easily track and log their daily macronutrient intake. 
+
+                       <br></br>
+
+                        <br></br>
+
+                        • Designed a user-friendly interface for seamless macro tracking, ensuring accessibility for users of all experience levels.                   <br></br>
+
+                        <br></br>
+
+                        • Built with the MERN stack, utilizing MongoDB, Express.js, React.js, and Node.js for a scalable and efficient web application.                 <br></br>
+
+                    </p>
+                </div>
+            </div>
+
 
 
 
