@@ -27,7 +27,22 @@ const About = () => {
                 <img className="profile-image" src={profilePic2} alt="picture of me" />
 
                 <div className="text">
-                    <p>
+
+                    <TypeAnimation
+                        sequence={[
+                            "Hi, I'm Michael, a senior studying computer science at The University of Georgia. I'm a aspiring software engineer with a love for full stack development. In my free time, I enjoy playing the guitar,  playing tennis, and exploring!",
+                            1000, 
+                            <br></br>,
+
+                         
+                        ]}
+                        wrapper="span"
+                        speed={75}
+                    />
+
+
+
+                    {/* <p>
                         Hi, I'm Michael. <br></br>
                         <br></br>
                         I'm a aspiring software engineer with a love for
@@ -35,7 +50,7 @@ const About = () => {
                         <br></br>
                         In my free time, I enjoy playing the guitar,
                         playing tennis, and traveling!
-                    </p>
+                    </p> */}
                 </div>
             </div>
         </div>

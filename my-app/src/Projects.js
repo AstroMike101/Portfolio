@@ -1,11 +1,15 @@
 import React from 'react';
 import './Projects.css';
 import proj1 from './imgs/proj1.png'
+import proj2 from './imgs/proj2.png'
+import proj3 from './imgs/proj3.png'
+
+
 
 const Projects = () => {
     return (
         <section className="projects-section">
-            <h2>Projects</h2>
+            <h2 class="underLine">Projects</h2>
             <div className="project-item">
                 <img
                     src={proj1} // Replace with the path to your project image
@@ -15,7 +19,7 @@ const Projects = () => {
                 <div className="project-details">
                     <h3>Cine Booking</h3>
                     <p className="project-description">
-                        Developed a full-stack web application with Firebase serving a REST API with React as the frontend                    <br></br>
+                        • Developed a full-stack web application with Firebase serving a REST API with React as the frontend                    <br></br>
 
                         <br></br>
 
@@ -28,6 +32,55 @@ const Projects = () => {
                            </p>
                 </div>
             </div>
+            <div className="project-item">
+                <img
+                    src={proj2} 
+                    alt="Project 2"
+                    className="project-image"
+                />
+                <div className="project-details">
+                    <h3>Grammar quest</h3>
+                    <p className="project-description">
+                         • Developed a web application that allowed for elementary schoolers to practice their grammar                  <br></br>
+
+                        <br></br>
+
+                        • Featured multiple map selections as well as specific music for each individual map(search, seat selection, booking confirmations, etc)                    <br></br>
+
+                        <br></br>
+
+                        • Utilized for a 3rd grade class as part of a mini game at my old middle school                                     <br></br>
+
+                    </p>
+                </div>
+            </div>
+
+            <div className="project-item">
+                <img
+                    src={proj3}
+                    alt="Project 3"
+                    className="project-image"
+                />
+                <div className="project-details">
+                    <h3>Strive (UGA HACKATHON)</h3>
+                    <p className="project-description">
+                        • Incorporated HTML/CSS, Javascript to build an interactive 6-page website to connect students with people that
+                            need jobs done                  <br></br>
+
+                        <br></br>
+
+                        • Equipped with a contact, sign up, client/contractor page as well as a dynamic background                    <br></br>
+
+                        <br></br>
+
+                        • Served as a project team leader and delegated tasks to a team of 5 in order to meet a 36-hour deadline                                     <br></br>
+
+                    </p>
+                </div>
+            </div>
+
+
+
             {/* Add more project items as needed */}
         </section>
     );

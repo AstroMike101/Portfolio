@@ -37,6 +37,10 @@ h3 {
     margin-top: 0.5rem;
 }
 
+.underLine {
+    text-decoration: underline;
+}
+
 /* Add a hover effect for a subtle interaction */
 .experience-item:hover {
     transform: scale(1.02);
