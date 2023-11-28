@@ -14,7 +14,7 @@ function App() {
   const options = {
     particles: {
       number: {
-        value: 30,
+        value: 0,
         density: {
           enable: true,
           area: 1500
@@ -80,10 +80,16 @@ function App() {
   return (
     <div>
       <Particles options={options} init={particlesInit} />
-      <Navbar />
+      {/* <Navbar />
       <About />
       <Experience />
-      <Projects />
+      <Projects /> */}
+
+      <Navbar />
+      <About id='about'/>
+      <Experience id="experience" />
+      <Projects id="projects" />
+      {/* <Contact id="contact" /> */}
       
     </div>
   );

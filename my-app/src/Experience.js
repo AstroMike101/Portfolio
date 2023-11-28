@@ -1,8 +1,8 @@
 import React from 'react';
 import './Experience.css';
-const Experience = () => {
+const Experience = ({ experience }) => {
     return (
-        <section className="experience-section">
+        <section id= { experience } className="experience-section">
             <h2 class= 'underLine'>Experience</h2>
             <div className="experience-item">
                 <div className="experience-details">
