@@ -1,0 +1,49 @@
+.projects-section {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+h2 {
+    color: #354f52;
+    text-align: center;
+}
+
+.project-item {
+    background-color: #2f3e46;
+    border: 2px solid #52796f;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically on smaller screens */
+    align-items: center;
+}
+
+.project-image {
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    width: 80%;
+    height: auto;
+}
+
+.project-details {
+    text-align: center;
+    /* Center text on smaller screens */
+}
+
+h3 {
+    color: #cad2c5;
+    margin-bottom: 0.5rem;
+}
+
+.project-description {
+    color: #cad2c5;
+    margin: 0;
+}
+
+/* Add a hover effect for a subtle interaction */
+.project-item:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}

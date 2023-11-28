@@ -4,6 +4,50 @@
 .header { 
     display: flex;
     justify-content: center;
-    font-size: 3em;
+    font-size: 2em;
     align-content: center;
+   
 }
+
+
+.about-me {
+    margin-top: 2em;
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 1rem;
+    
+    /* background-color: #84a98c; */
+    border-radius: 12px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    color: #2f3e46;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    border-radius: 10px;
+    margin-right: 1rem;
+    width: 22em;
+    height: 21em;
+}
+
+.text {
+    flex-grow: 1;
+}
+
+/* p {
+    color: #52796f;
+} */
