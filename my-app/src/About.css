@@ -58,6 +58,10 @@ h2 {
         text-align: center;
     }
 
+    .header {
+        line-height: 2em;
+    }
+
 
     .profile-image {
         margin-right: 0;
